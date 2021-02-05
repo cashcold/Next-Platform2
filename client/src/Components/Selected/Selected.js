@@ -35,7 +35,7 @@ class Selected extends Component {
                     <section className='about__game'>
                         <div className='about_game_text'>
                             <h1>All In One Boost</h1>
-                            <h2>Play incredible games like Astro Bot Rescue Mission,God of War, Blood and Truth and Dreams VR. etc</h2>
+                            <h2>Play incredible games like Astro Bot Rescue Mission,Spider-Man,God of War, Blood and Truth and Dreams VR. etc</h2>
                         </div>
                         <div className='game__ads_start'>
                             <img src={require('../../VR__Pic/46f24237e05ea9d2fb80f4064225732a.jpg')} alt='pic'/>
