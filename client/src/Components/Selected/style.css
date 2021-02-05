@@ -1,0 +1,227 @@
+.game__img_main img{
+    width: 100%;
+}
+.game__A{
+    margin: 60px 0;
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem 3rem;
+}
+.game__text{
+    width: 80%;
+    margin: 0 auto;
+}
+.game__ads_start img{
+    width: 100%;
+}
+.game__ads{
+    margin-bottom: 50px;
+}
+.famil__family__text{
+    width: 40%;
+    margin: 0 auto;
+}
+.about_game_text{
+    width: 40%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.famil__family__text i{
+    padding: 0 1rem;
+}
+.family_info_img_other{
+    margin: 30px 0;
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(88, 88, 202);
+    color: white;
+    padding: 3rem 0;
+}
+.other__img__text h2{
+    padding: 4rem 0;
+}
+.controller__img img{
+    width: 300px;
+}
+.controller__1{
+    margin: 60px 0;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 20px;
+}
+.controller__img p{
+    margin: 0;
+}
+
+.controller__img .icon{
+    margin-bottom: 10px;
+}
+.controller__img .icon i{
+    color: #E0A800;
+}
+.other__brand{
+    margin: 80px 0;
+    width: 100%;
+    min-height: 80vh;
+    background-color: red;
+    padding: 1rem 0rem;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 80px;
+}
+.brand__info{
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+.both__adv_tag{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.brand_info_img img{
+    filter: brightness(0.5);
+}
+.other__brand h1{
+    padding: 3rem 0rem;
+}
+
+
+.img__adv__me h1{
+    width: 50%;
+    margin: 0 auto;
+    padding: 4rem 3rem;
+}
+.img__adv__me{
+    width: 100%;
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    padding-bottom: 120px;
+}
+.chanceMain{
+    margin: 60px 0;
+}
+.subHead h1{
+    padding: 2rem 0;
+}
+.subHead h1{
+    width: 50%;
+    margin: 0 auto;
+}
+.free__shippment{
+    margin: 70px 0;
+}
+.freeShippment h1{
+    padding: 2rem 0rem;
+}
+
+.freeShippment img{
+    padding: 1rem 2rem;
+}
+.free__shippment{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 10px;
+}
+.freeShippment h3{
+    margin: 0;
+}
+.loady__img img{
+    width: 100%;
+    margin-bottom: 40px;
+    filter: brightness(0.7);
+}
+@media screen and (max-width: 414px){
+   
+}
+
+@media screen and (max-width: 768px){
+    .game__A{
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0.8rem 1.5rem;
+    }
+    .game__text{
+        width: 100%;
+    }
+    .game__ads_start img{
+        width: 100%;
+    }
+    .famil__family__text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .family_info_img_other{
+        margin: 30px 0;
+        width: 100%;
+        min-height: 50vh;
+        background-color: rgb(88, 88, 202);
+        color: white;
+        padding: 3rem 0;
+    }
+    .about_game_text{
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+    .controller__1{
+        margin: 30px 0;
+        padding: 1rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-gap: 80px;
+    }
+    .other__brand{
+        margin: 30px 0;
+        width: 100%;
+        min-height: 50vh;
+        background-color: red;
+        padding: 1rem 0rem;
+        color: white;
+        font-weight: bolder;
+        padding-bottom: 50px;
+    }
+    .img__adv__me h1{
+        width: 80%;
+        margin: 0 auto;
+        padding: 3rem 1.5rem;
+    }
+    .both__adv_tag{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        
+    }
+    .img__me__tag_img img{
+        padding: 0 0rem;
+    }
+    .brand__info{
+        padding: 0 1rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5px;
+    }
+    .subHead h1{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .freeShippment img{
+        padding: 0.1rem 0.2rem;
+    }
+    .free__shippment{
+        margin: 40px 0;
+    }
+    .freeShippment h1{
+        padding: 1rem 0rem;
+    }
+    .freeShippment h1{
+        font-size: 1rem;
+    }
+}

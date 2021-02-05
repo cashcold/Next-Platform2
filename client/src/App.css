@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.mainApp{
+    margin-bottom: 300%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black;
+    color: white; */
+}
+ul li{
+    list-style: none;
+    
+}
+img{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+h2,h3,h4,h5,p,a{
+    font-family: 'Aleo', serif;
+}
+.btn{
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* @media screen and (max-width: 220px){
+   
+}
+@media screen and (max-width: 414px){
+
+    h1{
+        font-size: 1rem;
+    }
+     h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 768px){
+
+} */
