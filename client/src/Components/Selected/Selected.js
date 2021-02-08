@@ -17,20 +17,34 @@ class Selected extends Component {
     render() { 
         return ( 
             <div className='SelectedMain'>
+                <section className='chanceMain'>
+                        <div className='subHead'>
+                            <h1>STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!</h1>
+                        </div>
+                    <div className='chance__now'>
+                        <h2>Answere Our Random Qustion and Win Free PES</h2>
+                        <a href='' className='btn btn-success
+                        '>GET START</a>
+                        <img src={require('../../VR__Pic/Playstation-VR-Wallpapers.jpg')} alt='pic'/>
+                        
+                    </div>
+                </section>
+                <section className='pes__soccer__main'>
+                    <div className='pesSoccer'>
+                        <img src={require('../../VR__Pic/wp6963865.jpg')} alt='pic'/>
+                    </div>
+                </section>
                 <section className='game__ads'>
                      <div className='game__A'>
                         <div className='game__text'>
                             <h1>PlayStation.VR</h1>
                             <h2>Immerse yourself in incredible virtual reality games and experiences</h2>
                             <p>Slip on your VR headset. Grab your PlayStation controller. And immerse yourself in the thrill of live sporting action as you’ve never experienced it before. Sport comes alive with silk-smooth visuals, social connectivity and sports data insight. It’s like being right there at the match, only more so.</p>
-                            <a href='' className='btn btn-warning'>BUY NOW</a>
+                            <a href='' className='btn btn-warning'>FREE TRAILS</a>
                         </div>
                         <div className='game__img_main'>
                             <img src={require('../../VR__Pic/Playstation-VR-Desktop.jpg')} alt='pic'/>
                         </div>
-                    </div>
-                    <div className='loady__img'>
-                        <img src={require('../../VR__Pic/pexels-cottonbro-4009626 (1).jpg')} alt='pic'/>
                     </div>
                     <section className='about__game'>
                         <div className='about_game_text'>
@@ -188,24 +202,7 @@ class Selected extends Component {
                         </div>
                    </div>
                 </section>
-                <section className='chanceMain'>
-                        <div className='subHead'>
-                            <h1>STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!</h1>
-                        </div>
-                    <div className='chance__now'>
-                        <h2>Answere Our Random Qustion and Win Free PES</h2>
-                        <a href='' className='btn btn-success
-                        '>GET START</a>
-                        <img src={require('../../VR__Pic/Playstation-VR-Wallpapers.jpg')} alt='pic'/>
-                        
-                    </div>
-                </section>
-                <section className='pes__soccer__main'>
-                    <div className='pesSoccer'>
-                        <img src={require('../../VR__Pic/wp6963865.jpg')} alt='pic'/>
-                    </div>
-                </section>
-                <section className='free__shippment'>
+                 <section className='free__shippment'>
                     <div className='freeShippment'>
                         <h1>FREE SHIPPMENT </h1>
                         <img src={require('../../VR__Pic/denise-jans-HoqYAnwR-1g-unsplash.jpg')} alt='pic'/>

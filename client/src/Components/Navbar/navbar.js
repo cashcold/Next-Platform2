@@ -53,13 +53,6 @@ class Navbar extends Component {
                      </div>
                      
                </section>
-               <section className='info__main'>
-                   <div className='info__1  animate__animated animate__faster animate__flip'>
-                       <h1>Playstation-Virtual reality</h1>
-                       <h2>30-day free trial </h2>
-                       <a href='' className='btn btn-warning free__btn  animate__animated animate__slower animate__tada'>Read More <i class="fas fa-arrow-circle-right"></i></a>
-                   </div>
-               </section>
             </div>
          );
     }

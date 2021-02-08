@@ -2,7 +2,7 @@
    padding: 20px 10% 0 0;
     width: 100%;
     height: 85vh;
-    background-image: url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');
+    background-image: url('../../VR__Pic/—Pngtree—black friday sale background design_1227059.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,17 +59,11 @@ a{
 .logoImg h1 i{
    
     color:yellow;
+    
 }
 /* Adding info__main */
 
-.info__main{
-    margin: 120px 0;
-    color: white;
-  
-}
-.info__1 a{
-    align-items: center;
-}
+
 
 
 
@@ -108,8 +102,8 @@ a{
     .navbarMain{
         padding: 20px 10% 0 0;
          width: 100%;
-         height: 80vh;
-         background-image: url('../../VR__Pic/Playstation-VR-HD-Wallpaper.jpg');
+         height: 25vh;
+         background-image: url('../../VR__Pic/—Pngtree—black friday sale background design_1227059.jpg');
          background-position: center;
          background-size: cover;
          background-repeat: no-repeat;
@@ -130,33 +124,7 @@ a{
         display: none;
        
     }
-    .info__main{
-        margin: 50px 0;
-        color: white;
-        position: relative;
-      
-    }
-    .info__1 h1{
-        
-    color: white;
-    background-color: blue;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    background-image: linear-gradient(to bottom, #d4e20a 0%, #ff1010 100%);
-    }
-    .info__1 h2{
-        
-    color: white;
-    background-color: rgb(21, 255, 0);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    background-image: linear-gradient(to left, #25251d 0%, #ff1010 100%);
-    }
-   
+  
     
     
 }
