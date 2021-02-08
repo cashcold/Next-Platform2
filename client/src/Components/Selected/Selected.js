@@ -5,18 +5,23 @@ class Selected extends Component {
     constructor(props) {
         super(props);
         this.state = { 
+        currency: ''
         }
     }
 
-//    componentDidMount(){
-//     fetch('https://api.alternative.me/v2/listings/').then(res => res.json()).then(res => res.data).then(data => this.setState({
-//         data: data
-//     }))
-//    }
+   componentDidMount(){
+   
+      
+     
+     
+   }
+   
 
     render() { 
+        
         return ( 
             <div className='SelectedMain'>
+                <div className='cerrency__now'></div>
                 <section className='chanceMain'>
                         <div className='subHead'>
                             <h1>STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!</h1>
@@ -229,6 +234,8 @@ class Selected extends Component {
                         <h2>$300.00</h2>
                         <a href='' className='btn btn-success'>BUY NOW</a>
                     </div>
+                </section>
+                <section className='bitcoinCal'>
                 </section>
             </div>
          );
