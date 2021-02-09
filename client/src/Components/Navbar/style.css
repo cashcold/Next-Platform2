@@ -81,9 +81,7 @@ a{
     p{
         font-size: 1rem;
     }
-    a{
-        font-size: 1.5em;
-    }
+   
     .nav__links ul{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -120,15 +118,13 @@ a{
         height: 10px;
         margin: 4px 0;
     }
-    .logoImg h1{
-        margin-left: -200px;
-    }
+   
     
 }
 
 @media screen and (max-width: 400px){
     h1{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .navbarMain{
         padding: 10px 5% 0 0%;
@@ -147,14 +143,6 @@ a{
         height: 5px;
         margin: 2px 0;
     }
-    a{
-        font-size: 1.2em;
-    }
-    .links{
-        margin-left: -80px;
-    }
-    .logoImg h1{
-        margin-left: -100px;
-    }
+  
 }
 
