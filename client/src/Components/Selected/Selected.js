@@ -235,7 +235,71 @@ class Selected extends Component {
                         <a href='' className='btn btn-success'>BUY NOW</a>
                     </div>
                 </section>
-                <section className='bitcoinCal'>
+                <section className='bitcoin__main'>
+                    <div className='bitcoinTrade'>
+                        <h3>THE BEST PLACE TO</h3>
+                        <h1>Buy, Sell and Pay with Crypto</h1>
+                        <div className='bitImg'>
+                            <img src={require('../../VR__Pic/google-play-and-apple-app-store.jpg')} alt='pic'/>
+                        </div>
+                    </div>
+                </section>
+                <section className='exchangeRate'>
+                    <div className='exchangeNow'>
+                        <div className='excahnge__text'>
+                            <h1>Exchange</h1>
+                            <h2>Powered by CRO, with Deep Liquidity, Low Fees and Best Execution Prices</h2>
+                            <a href='' className='btn btn-warning'>SIGN-UP</a>
+                        </div>
+                        <div className='excahnge__img'>
+                            <img src={require('../../VR__Pic/exchange-630a5df1.webp')} alt='pic'/>
+                        </div>
+                    </div>
+                </section>
+                <section className='exchangeRate_info'>
+                    <div className='exchangeNow exchangeNow__mobile'>
+                        <div className='excahnge__img excahnge__img__mobile'>
+                            <img src={require('../../VR__Pic/index_wallet_iphonex-52a60db3.webp')} alt='pic'/>
+                        </div>
+                        <div className='excahnge__text excahnge__text__mobile'>
+                            <h1>App</h1>
+                            <h2>Buy 90+ Coins at True Cost No fees, No markups</h2>
+                            <a href='' className='btn btn-warning'>Learn More</a>
+                        </div>
+                    </div>
+                </section>
+                <section className='bitCard'>
+                    <div className='card__bit__text'>
+                        <h1>Cards</h1>
+                        <h2>Metal Visa Card with up to 8% back on spending</h2>
+                        <p>Now availabe in South Africa, Ghana, Nigeria</p>
+                        <a href='' class='btn btn-warning'>Learn More</a>
+                    </div>
+                    <div className='card__bit__img'>
+                         <img src={require('../../VR__Pic/91cbedf77655c5c540e52b604972062c.jpg')} alt='pic'/>
+                    </div>
+                </section>
+                <section className='section__section'>
+                    <section className='Earn__main '>
+                        <div className='earn__now__img'>
+                            <img src={require('../../VR__Pic/index_earn_iphonex-311bdf2e.webp')} alt='pic'/>
+                        </div>
+                        <div className='earn__now__text'>
+                            <h1>Earn</h1>
+                            <h2>Deposit crypto, earn interest paid weekly in crypto</h2>
+                            <a href='' className='btn btn-warning'>Learn More</a>
+                        </div>
+                    </section>
+                    <section className='Earn__main'>
+                        <div className='earn__now__text'>
+                            <h1>Credit</h1>
+                            <h2>Deposit crypto, get an instant loan</h2>
+                            <a href='' className='btn btn-warning'>Learn More</a>
+                        </div>
+                        <div className='earn__now__img'>
+                            <img src={require('../../VR__Pic/index_credit_iphonex-6b80aab8.webp')} alt='pic'/>
+                        </div>
+                    </section>
                 </section>
             </div>
          );
