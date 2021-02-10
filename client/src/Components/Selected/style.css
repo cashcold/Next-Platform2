@@ -212,7 +212,31 @@
     min-height: 400px;
     background-color: #011E3F;
 }
-
+.pepsi__main{
+    height: 70vh;
+    background-color: #0065C3;
+    color: white;
+}
+.section__section__pepsi{
+    min-height: 100vh;
+    background-color: #0065C3;
+    color: white;
+}
+.pepsiMain{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.pepsi__text p{
+    width: 70%;
+    margin: 0 auto;
+}
+.pepsi__tex h1{
+    font-weight: bolder;
+}
+.pepsi_img img{
+        padding: 0 2em;
+    }
 @media screen and (max-width: 768px){
     .game__A{
         margin: 60px 0;
@@ -385,6 +409,22 @@
     }
     .earn__now__text{
         margin-top: 10px;
+    }
+    .pepsiMain{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+    .pepsi__text p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pepsi_img img{
+        margin-top: 40px;
+        padding: 0 2em;
+    }
+    .cocoa__main{
+        margin-top: -80px;
     }
 }
 

@@ -32,7 +32,7 @@ class Navbar extends Component {
                <section className='navMain'>
                    <nav>
                        <div className='logoImg animate__animated animate__slower animate__flash'>
-                         <h1><i class="fas fa-cart-plus  "></i> NEXT</h1>
+                         <h1><i class="fas fa-cart-plus  "></i> NEXT-PLATFORM </h1>
                        </div>
                        <div className='nav__links animate__animated animate__slower animate__bounceInDown'>
                            <ul className='links'>

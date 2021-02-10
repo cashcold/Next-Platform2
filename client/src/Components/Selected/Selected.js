@@ -301,6 +301,33 @@ class Selected extends Component {
                         </div>
                     </section>
                 </section>
+                <section className='section__section__pepsi'>
+                    <section className='pepsi__main'>
+                        <div className='pepsiMain'>
+                            <div className='pepsi__text'>
+                                <h1>ALL YOUR <br/>FAVORITE FLAVORS. <br/>ALL RIGHT HERE.</h1>
+                                <p>Pepsi. Diet Pepsi. Pepsi Zero Sugar. The gang’s all here. Compare flavors, get nutritional facts and check out ingredients for all our Pepsi products.</p>
+                                <a href='' className='btn btn-primary'>BECOME OUR AGENT</a>
+                            </div>
+                            <div className='pepsi_img'>
+                             <img src={require('../../VR__Pic/promotion1-hero_v3.png')} alt='pic'/>
+                            </div>
+                        </div>
+                    </section>
+                    <section className='cocoa__main'>
+                        <div className='cocoa__img'>
+                            <img src={require('../../VR__Pic/cocoa-cola-social.jpg')} alt='pic'/>
+                        </div>
+                    </section>
+                   <section className='pepsi__origin'>
+                       <div className='pepsiOrigin'>
+                            <img src={require('../../VR__Pic/22160504-7785859-Two_to_taste_It_will_come_in_both_Original_and_Vanilla_varieties-a-4_1576171477322.jpg')} alt='pic'/>
+                       </div>
+                       <div className='pepsiOrigin'>
+                            <img src={require('../../VR__Pic/100.jpg')} alt='pic'/>
+                       </div>
+                   </section>
+                </section>
             </div>
          );
     }
