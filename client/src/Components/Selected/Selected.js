@@ -24,7 +24,7 @@ class Selected extends Component {
                 <div className='cerrency__now'></div>
                 <section className='chanceMain'>
                         <div className='subHead'>
-                            <h1>STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!</h1>
+                            <h1>STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!!</h1>
                         </div>
                     <div className='chance__now'>
                         <h2>Answere Our Random Qustion and Win Free PES</h2>
