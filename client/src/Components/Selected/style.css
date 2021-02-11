@@ -236,7 +236,33 @@
 }
 .pepsi_img img{
         padding: 0 2em;
-    }
+}
+.pesSoccer{
+    display: none;
+}
+.container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+  }
+  .subHead h1 span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .subHead h1 span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
+
 @media screen and (max-width: 768px){
     .game__A{
         margin: 60px 0;
@@ -424,7 +450,10 @@
         padding: 0 2em;
     }
     .cocoa__main{
-        margin-top: -80px;
+        margin-top: 0px;
+    }
+    .section__section img{
+        width: 50%;
     }
 }
 

@@ -227,6 +227,21 @@ Router.post('/deposit', async(req,res)=>{
     await UserDepositNow.save()
     res.send(".........Waiting for BlockChain confirm to credit your Dashboard")
 })
+Router.post('/confirm', async(req,res)=>{
+
+    // Download the helper library from https://www.twilio.com/docs/node/install
+// Your Account Sid and Auth Token from twilio.com/console
+// and set the environment variables. See http://twil.io/secure
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const authToken = process.env.TWILIO_AUTH_TOKEN;
+const client = require('twilio')(accountSid, authToken);
+
+client.messages
+      .create({body: 'Hi there!', from: '+19472105301', to: '+233235674386'})
+      .then(message => console.log(message));
+
+    res.send("Message have send to phone")
+})
 
 
 

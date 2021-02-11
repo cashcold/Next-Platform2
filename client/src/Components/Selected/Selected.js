@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios'
+import 'react-toastify/dist/ReactToastify.css';
+import { toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import './style.css'
 class Selected extends Component {
     constructor(props) {
@@ -10,9 +13,78 @@ class Selected extends Component {
     }
 
    componentDidMount(){
+       setTimeout(()=>{
+           toast.success("WELCOME TO NEXT PLATFORM")
+       },5000)
    
-      
+       setTimeout(()=>{
+           toast.success("PROMOTE YOUR BUSINESS")
+       },20000)
+   
+    let SlideIndex = 0;
+    const SlideDiv = ()=>{
+        var i ;
+        var slideDiv = document.querySelectorAll('.boxCard')
+        var dot = document.querySelectorAll('.dot')
+        for(i = 0; i < slideDiv.length; i++){
+            slideDiv[i].style.display='none'
+        }
+        SlideIndex++;
+        if(SlideIndex > slideDiv.length){SlideIndex = 1}
+        for(i = 0; i < dot.length; i++){
+           
+        }
+        slideDiv[SlideIndex-1].style.display= "block";
+
+        setTimeout(SlideDiv,4000)
+
+    }
+    SlideDiv()
      
+    const Typing = ()=>{
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        const textArray = ["STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!!", "PES 2021 LITE gives you unrestricted access to all the features of myClub mode", "The full version 'eFootball PES 2021 SEASON UPDATE' is also available.", "The free-to-play version of the 'eFootball PES 2021 SEASON UPDATE' is now available for download."];
+        const typingDelay = 200;
+        const erasingDelay = 100;
+        const newTextDelay = 2000; // Delay between current and next text
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+            if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+            typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingDelay);
+        } 
+        else {
+            cursorSpan.classList.remove("typing");
+            setTimeout(erase, newTextDelay);
+        }
+        }
+
+        function erase() {
+        if (charIndex > 0) {
+        if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+        typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+        charIndex--;
+        setTimeout(erase, erasingDelay);
+        } 
+        else {
+        cursorSpan.classList.remove("typing");
+        textArrayIndex++;
+        if(textArrayIndex>=textArray.length) textArrayIndex=0;
+        setTimeout(type, typingDelay + 1100);
+        }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+        if(textArray.length) setTimeout(type, newTextDelay + 250);
+        });
+    }
+Typing()
      
    }
    
@@ -21,10 +93,11 @@ class Selected extends Component {
         
         return ( 
             <div className='SelectedMain'>
+                <ToastContainer/>
                 <div className='cerrency__now'></div>
                 <section className='chanceMain'>
                         <div className='subHead'>
-                            <h1>STAND A CHANCE TO WIN FREE PES PRODUCT EVERY WEEK!!!!</h1>
+                            <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
                         </div>
                     <div className='chance__now'>
                         <h2>Answere Our Random Qustion and Win Free PES</h2>
@@ -35,8 +108,26 @@ class Selected extends Component {
                     </div>
                 </section>
                 <section className='pes__soccer__main'>
-                    <div className='pesSoccer'>
+                    <div className='pesSoccer boxCard'>
                         <img src={require('../../VR__Pic/wp6963865.jpg')} alt='pic'/>
+                    </div>
+                    <div className='pesSoccer boxCard'>
+                        <img src={require('../../VR__Pic/331212e60a5a281b46d47e7d05d15f8f.jpg')} alt='pic'/>
+                    </div>
+                    <div className='pesSoccer boxCard'>
+                        <img src={require('../../VR__Pic/wp3144431.jpg')} alt='pic'/>
+                    </div>
+                    <div className='pesSoccer boxCard'>
+                        <img src={require('../../VR__Pic/wp8181191.jpg')} alt='pic'/>
+                    </div>
+                    <div className='pesSoccer boxCard'>
+                        <img src={require('../../VR__Pic/2cf5c6a8332a22bf6f06c32f32b5b6f0.jpg')} alt='pic'/>
+                    </div>
+                    <div className='pesSoccer boxCard'>
+                        <img src={require('../../VR__Pic/Free-Fire-feature-3-1024x576.jpg')} alt='pic'/>
+                    </div>
+                    <div className='pesSoccer boxCard'>
+                        <img src={require('../../VR__Pic/thumb-1920-516677.jpg')} alt='pic'/>
                     </div>
                 </section>
                 <section className='game__ads'>
