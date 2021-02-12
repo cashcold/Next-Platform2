@@ -36,9 +36,9 @@ class Navbar extends Component {
                        </div>
                        <div className='nav__links animate__animated animate__slower animate__bounceInDown'>
                            <ul className='links'>
-                               <li><a href=''><i class="fa fa-home"> </i>HOME</a></li>
-                               <li><a href=''><i class="fas fa-hand-point-up"></i> FREE TRIAL</a></li>
-                               <li><a href=''><i class="fas fa-address-card"></i> BECOME OUR AGENT</a></li>
+                               <li><a href='/'><i class="fa fa-home"> </i>HOME</a></li>
+                               <li><a href='/agent-form'><i class="fas fa-address-card"></i> BECOME OUR AGENT</a></li>
+                               <li><a href='/contact-us'><i class="fas fa-hand-point-up"></i> CONTACT-US</a></li>
                                 <a href='' className='btn btn-warning login__btn btn__classic animate__animated animate__slower animate__slideInLeft'>Login <i class="fas fa-sign-in-alt"></i></a> 
                                 <a href='' className='btn btn-success btn__classic animate__animated animate__slower animate__slideInRight'><i class="fas fa-door-open"></i> Join-us</a> 
                            </ul>

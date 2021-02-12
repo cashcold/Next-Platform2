@@ -6,7 +6,6 @@
 }
 
 .mainApp{
-    margin-bottom: 300%;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -32,6 +31,11 @@ h2,h3,h4,h5,p,a{
     color: white;
     font-weight: bolder;
     border-radius: 50px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
 }
 
 

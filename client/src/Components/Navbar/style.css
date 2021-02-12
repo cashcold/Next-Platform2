@@ -103,7 +103,12 @@ a{
          margin: 0 auto;
      }
      .nav__links{
+         padding: 1em;
          margin-top: 30px;
+         width: 200%;
+         height: 30vh;
+         background-color: black;
+         color: white;
      }
      .toggle__bar{
         display: block;
