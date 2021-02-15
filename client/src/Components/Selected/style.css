@@ -259,9 +259,22 @@
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
   }
+ 
+
+
+
 
 
 @media screen and (max-width: 768px){
+    /* h1{
+        font-size: 1.5rem;
+    }
+     h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.8rem;
+    } */
     .game__A{
         margin: 60px 0;
         display: grid;
@@ -302,7 +315,7 @@
         margin: 30px 0;
         padding: 1rem 2rem;
         display: grid;
-        grid-template-columns: repeat(2,auto);
+        grid-template-columns: repeat(1,auto);
         grid-gap: 80px;
     }
     .other__brand{
@@ -451,9 +464,12 @@
     .section__section img{
         width: 50%;
     }
+    .typed-text{
+        font-size: 1em;
+    }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 560px){
     .controller__1{
         margin: 30px 0;
         padding: 1rem 2rem;

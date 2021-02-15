@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
+import 'animate.css'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Navbar from './Components/Navbar/navbar';
 import Selected from './Components/Selected/Selected';
@@ -17,7 +18,7 @@ class MainApp extends Component {
         return ( 
             // animate__animated animate__zoomIn 
             <Router>
-                <div className=' mainApp '>
+                <div className=' mainApp animate__animated animate__fadeIn animate__slower '>
                         <div className='wrapper'>
                             <Navbar/>
                             <div className='switch'> 
