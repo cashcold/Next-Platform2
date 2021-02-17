@@ -6,7 +6,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+   
 }
 .btn__classic{
     color: white;
@@ -127,19 +127,17 @@ a{
     
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     h1{
         font-size: 1.5rem;
     }
     .navbarMain{
         padding: 10px 5% 0 0%;
          width: 100%;
-         height: 30vh;
+         height: 25vh;
          background-image: url('../../VR__Pic/—Pngtree—black friday sale background design_1227059.jpg');
-         background-position: center;
-         background-size: cover;
-         background-repeat: no-repeat;
-     
+         background-position: 10%  ;
+        
      }
      
      .toggle__bar div{
@@ -150,4 +148,5 @@ a{
     }
   
 }
+
 
